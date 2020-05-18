@@ -1,0 +1,12 @@
+/Users/albert/_dev/lang/csharp/GrammarBasic/GrammarBasic/bin/Debug/netcoreapp3.1/GrammarBasic.deps.json
+/Users/albert/_dev/lang/csharp/GrammarBasic/GrammarBasic/bin/Debug/netcoreapp3.1/GrammarBasic.runtimeconfig.json
+/Users/albert/_dev/lang/csharp/GrammarBasic/GrammarBasic/bin/Debug/netcoreapp3.1/GrammarBasic.runtimeconfig.dev.json
+/Users/albert/_dev/lang/csharp/GrammarBasic/GrammarBasic/bin/Debug/netcoreapp3.1/GrammarBasic.dll
+/Users/albert/_dev/lang/csharp/GrammarBasic/GrammarBasic/bin/Debug/netcoreapp3.1/GrammarBasic.pdb
+/Users/albert/_dev/lang/csharp/GrammarBasic/GrammarBasic/obj/Debug/netcoreapp3.1/GrammarBasic.csprojAssemblyReference.cache
+/Users/albert/_dev/lang/csharp/GrammarBasic/GrammarBasic/obj/Debug/netcoreapp3.1/GrammarBasic.csproj.CoreCompileInputs.cache
+/Users/albert/_dev/lang/csharp/GrammarBasic/GrammarBasic/obj/Debug/netcoreapp3.1/GrammarBasic.AssemblyInfoInputs.cache
+/Users/albert/_dev/lang/csharp/GrammarBasic/GrammarBasic/obj/Debug/netcoreapp3.1/GrammarBasic.AssemblyInfo.cs
+/Users/albert/_dev/lang/csharp/GrammarBasic/GrammarBasic/obj/Debug/netcoreapp3.1/GrammarBasic.dll
+/Users/albert/_dev/lang/csharp/GrammarBasic/GrammarBasic/obj/Debug/netcoreapp3.1/GrammarBasic.pdb
+/Users/albert/_dev/lang/csharp/GrammarBasic/GrammarBasic/obj/Debug/netcoreapp3.1/GrammarBasic.genruntimeconfig.cache
