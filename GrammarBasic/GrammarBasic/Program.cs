@@ -18,6 +18,7 @@ namespace GrammarBasic
     {
       Console.WriteLine("===== C# Basic Grammar =====");
 
+      Console.WriteLine("===== >> 11-2. as Data Type");
       string str1 = "123";
       object obj = str1; // boxing
       string str2 = obj as string;
@@ -34,6 +35,15 @@ namespace GrammarBasic
       {
         Console.WriteLine("Success to change the data type.");
       }
+      
+      Console.WriteLine("===== >> 11-3. bit and null operator");
+
+      int? x = null; // nullable
+      int y = x ?? -1;
+      Console.WriteLine(y);
+      x = 10;
+      y = x ?? -1;
+      Console.WriteLine(y);
     }
   }
 }
