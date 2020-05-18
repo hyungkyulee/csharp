@@ -44,6 +44,21 @@ namespace GrammarBasic
       x = 10;
       y = x ?? -1;
       Console.WriteLine(y);
+      
+      Console.WriteLine("===== >> 12-1. Control");
+      // if/Else - false(0), true(other than 0)
+      // switch/case - string is allowed in c#, and 'case' without 'break' is not allowed.
+      // int nNum = 1;
+      string name = "kyu";
+      switch (name)
+      {
+        case "kyu":
+          Console.WriteLine("kye is selected..");
+          break; // in 'C/C++', all of the cases before the next 'break' are executable without break. 
+        case "lee":
+          Console.WriteLine("lee is selected..");
+          break;
+      }
     }
   }
 }
