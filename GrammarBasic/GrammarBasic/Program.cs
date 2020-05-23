@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Threading;
 
 namespace GrammarBasic
 {
@@ -18,7 +19,7 @@ namespace GrammarBasic
     static void Main(string[] args)
     {
       Console.WriteLine("===== C# Basic Grammar =====");
-
+/*
       Console.WriteLine("===== >> 11-2. as Data Type");
       string str1 = "123";
       object obj = str1; // boxing
@@ -109,6 +110,58 @@ namespace GrammarBasic
       {
         Console.Write("{0} ", array1[i]);
       }
+     
+      Console.WriteLine("===== >> 13-1. 1st-Dimension Array");
+
+      int[] nArray = {1, 2, 3, 4, 5};
+      for (int i = 0; i<nArray.Length; i++)
+      {
+        Console.Write("{0} ", nArray[i]);
+      }
+      Console.Write("\n");
+      foreach (int m in nArray) // use for a readonly purpose 
+        Console.Write("{0} ", m);
+      Console.Write("\n");
+      string[] Days = {"Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"};
+      foreach (string str in Days) // use for a readonly purpose 
+        Console.Write(str + " ");
+ */      
+      Console.WriteLine("===== >> 13-2. Multi-Dimension Array");
+
+      int[,] nArray = {{1, 2, 3}, {4, 5, 6}};
+      for (int i = 0; i<2; i++)
+      {
+        for (int j = 0; j < 3; j++)
+        {
+          Console.Write(nArray[i, j] + " "); 
+        }
+      }
+      Console.Write("\n");
+      
+      
+      foreach (int m in nArray) // use for a readonly purpose 
+        Console.Write("{0} ", m);
+      
+      
+      Console.Write("\n");
+      string[,,] abc =
+      {
+        {{"a1","a2"}, {"a3","a4"}, {"a5","a6"}},
+        {{"b1","b2"}, {"b3","b4"}, {"a5","a6"}},
+        {{"c1","c2"}, {"c3","c4"}, {"a5","a6"}},
+        {{"c1","c2"}, {"c3","c4"}, {"a5","a6"}}
+      };
+      for (int i = 0; i<4; i++)
+      {
+        for (int j = 0; j < 3; j++)
+        {
+          for (int k = 0; k < 2; k++)
+          {
+            Console.Write(abc[i, j, k] + " ");
+          }
+        }
+      }
+      Console.Write("\n");
     }
   }
 }
