@@ -125,7 +125,7 @@ namespace GrammarBasic
       string[] Days = {"Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"};
       foreach (string str in Days) // use for a readonly purpose 
         Console.Write(str + " ");
- */      
+     
       Console.WriteLine("===== >> 13-2. Multi-Dimension Array");
 
       int[,] nArray = {{1, 2, 3}, {4, 5, 6}};
@@ -162,6 +162,22 @@ namespace GrammarBasic
         }
       }
       Console.Write("\n");
+*/
+
+      Console.WriteLine("===== >> 15-1. Array methods");
+
+      int[] nArrays = {1, 2, 3, 4, 5};
+      Array.Clear(nArrays, 2, 3);
+      foreach (int m in nArrays) // use for a readonly purpose 
+        Console.Write("{0} ", m); 
+      Console.Write("\n");
+
+      var nArrayClone = (int[])nArrays.Clone(); // 'casting' is required because 'Clone' returns object
+      foreach (int m in nArrayClone) // use for a readonly purpose 
+        Console.Write("{0} ", m); 
+      Console.Write("\n");
+
     }
   }
+  
 }
