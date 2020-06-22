@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.IO;
 using System.Threading;
 
 namespace GrammarBasic
@@ -162,7 +163,6 @@ namespace GrammarBasic
         }
       }
       Console.Write("\n");
-*/
 
       Console.WriteLine("===== >> 15-1. Array methods");
 
@@ -177,6 +177,12 @@ namespace GrammarBasic
         Console.Write("{0} ", m); 
       Console.Write("\n");
 
+*/
+      Console.WriteLine("===== >> 16-1. File I/O");
+      
+      FileStream fs = new FileStream("test.txt", FileMode.Create);
+      StreamWriter sw = new StreamWriter(fs);
+      sw.Close();
     }
   }
   
