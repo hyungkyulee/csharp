@@ -27,7 +27,7 @@ namespace GrammarBasic
     {
       Console.WriteLine("===== C# Basic Grammar =====");
 /*
-      Console.WriteLine("===== >> 11-2. as Data Type");
+      Console.WriteLine("================================================== >> 11-2. as Data Type");
       string str1 = "123";
       object obj = str1; // boxing
       string str2 = obj as string;
@@ -54,7 +54,7 @@ namespace GrammarBasic
       y = x ?? -1;
       Console.WriteLine(y);
       
-      Console.WriteLine("===== >> 12-1. Control - switch/case");
+      Console.WriteLine("================================================== >> 12-1. Control - switch/case");
       // if/Else - false(0), true(other than 0)
       // switch/case - string is allowed in c#, and 'case' without 'break' is not allowed.
       // int nNum = 1;
@@ -88,7 +88,7 @@ namespace GrammarBasic
         Console.WriteLine(m);
       }
       
-      Console.WriteLine("===== >> 12-3. Exception");
+      Console.WriteLine("================================================== >> 12-3. Exception");
       // exception is important in C# comparing to C++ (no exception in C)
       // System.Exception (derived objects in the below)
       //  - OverFlowException
@@ -118,7 +118,7 @@ namespace GrammarBasic
         Console.Write("{0} ", array1[i]);
       }
      
-      Console.WriteLine("===== >> 13-1. 1st-Dimension Array");
+      Console.WriteLine("================================================== >> 13-1. 1st-Dimension Array");
 
       int[] nArray = {1, 2, 3, 4, 5};
       for (int i = 0; i<nArray.Length; i++)
@@ -133,7 +133,7 @@ namespace GrammarBasic
       foreach (string str in Days) // use for a readonly purpose 
         Console.Write(str + " ");
      
-      Console.WriteLine("===== >> 13-2. Multi-Dimension Array");
+      Console.WriteLine("================================================== >> 13-2. Multi-Dimension Array");
 
       int[,] nArray = {{1, 2, 3}, {4, 5, 6}};
       for (int i = 0; i<2; i++)
@@ -170,7 +170,7 @@ namespace GrammarBasic
       }
       Console.Write("\n");
 
-      Console.WriteLine("===== >> 15-1. Array methods");
+      Console.WriteLine("================================================== >> 15-1. Array methods");
 
       int[] nArrays = {1, 2, 3, 4, 5};
       Array.Clear(nArrays, 2, 3);
@@ -199,7 +199,7 @@ namespace GrammarBasic
       sw.Close();
  
 
-      Console.WriteLine("===== >> 16-2. File I/O - using");
+      Console.WriteLine("================================================== >> 16-2. File I/O - using");
       int value = 12;
       float value2 = 3.14f;
       string str = "Hello";
@@ -208,8 +208,8 @@ namespace GrammarBasic
       sw.WriteLine(value2);
       sw.WriteLine(str);
       // Close method is not required
-*/
-      Console.WriteLine("===== >> 17-1. File I/O - ");
+
+      Console.WriteLine("================================================== >> 17-1. File I/O - ");
 
       // Test 
       // string str = "English: 90 Math: 100 Science: 95";
@@ -248,6 +248,15 @@ namespace GrammarBasic
         sw.WriteLine("{0} {1} {2} {3} {4:f1}", grade[i].Eng, grade[i].Math, grade[i].Sci, grade[i].Total, grade[i].Avr);
       }
       sw.Close();
+      
+      Console.Write("Input File Name to Load ");
+      string filename = Console.ReadLine();
+      StreamReader sr = new StreamReader(filename);
+      str = sr.ReadLine();
+      // To do : data processing with str
+      Console.WriteLine(str);
+      sr.Close();
+*/
 
     }
   }
