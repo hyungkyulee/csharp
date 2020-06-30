@@ -14,6 +14,12 @@ namespace GrammarBasic
   {
     
   }
+
+  struct GRADE
+  {
+    public int Eng, Math, Sci, Total;
+    public int Avr;
+  }
   
   class Program
   {
@@ -177,13 +183,72 @@ namespace GrammarBasic
         Console.Write("{0} ", m); 
       Console.Write("\n");
 
-*/
-      Console.WriteLine("===== >> 16-1. File I/O");
+
+      Console.WriteLine("===== >> 16-1. File I/O - StreamWriter");
+      int value = 12;
+      float value2 = 3.14f;
+      string str = "Hello";
       
       FileStream fs = new FileStream("test.txt", FileMode.Create);
       StreamWriter sw = new StreamWriter(fs);
+      
+      sw.WriteLine(value);
+      sw.WriteLine(value2);
+      sw.WriteLine(str);
+      
       sw.Close();
+ 
+
+      Console.WriteLine("===== >> 16-2. File I/O - using");
+      int value = 12;
+      float value2 = 3.14f;
+      string str = "Hello";
+      using StreamWriter sw = new StreamWriter(new FileStream("test1.txt", FileMode.Create));
+      sw.WriteLine(value);
+      sw.WriteLine(value2);
+      sw.WriteLine(str);
+      // Close method is not required
+*/
+      Console.WriteLine("===== >> 17-1. File I/O - ");
+
+      // Test 
+      // string str = "English: 90 Math: 100 Science: 95";
+      // string[] str_element = str.Split(new char[] {' '});
+      // int Eng = int.Parse(str_element[1]);
+      // int Math = int.Parse(str_element[3]);
+      // int Sci = int.Parse(str_element[5]);
+      // int Total = Eng + Math + Sci;
+      // float Avr = Total / 3.0f;
+      // Console.WriteLine("{0} {1} {2} {3} {4}", Eng, Math, Sci, Total, System.Math.Round(Avr));
+
+      string str;
+      float average;
+      Console.Write("Please input the number of student to archive : ");
+      int nCount = int.Parse(Console.ReadLine());
+
+      Console.WriteLine("Input the score of Eng, Math, Sci in order with space");
+      GRADE[] grade = new GRADE[nCount];
+      StreamWriter sw = new StreamWriter("test.txt");
+      sw.WriteLine("# of Student: {0}", nCount);
+
+      for (int i = 0; i < nCount; i++)
+      {
+        str = Console.ReadLine();
+        string[] dataString = str.Split(new char[] {' '});
+        grade[i].Eng = int.Parse(dataString[0]);
+        grade[i].Math = int.Parse(dataString[1]);
+        grade[i].Sci = int.Parse(dataString[2]);
+        grade[i].Total = grade[i].Eng + grade[i].Math + grade[i].Sci;
+        average = grade[i].Total / 3.0f;
+        grade[i].Avr = (int) Math.Round(average);
+      }
+
+      for (int i = 0; i < nCount; i++)
+      {
+        sw.WriteLine("{0} {1} {2} {3} {4:f1}", grade[i].Eng, grade[i].Math, grade[i].Sci, grade[i].Total, grade[i].Avr);
+      }
+      sw.Close();
+
     }
   }
-  
 }
