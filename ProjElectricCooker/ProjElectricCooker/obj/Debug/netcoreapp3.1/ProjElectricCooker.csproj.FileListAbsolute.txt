@@ -1,0 +1,12 @@
+/Users/albert/_ref/languages/csharp/ProjElectricCooker/ProjElectricCooker/bin/Debug/netcoreapp3.1/ProjElectricCooker.deps.json
+/Users/albert/_ref/languages/csharp/ProjElectricCooker/ProjElectricCooker/bin/Debug/netcoreapp3.1/ProjElectricCooker.runtimeconfig.json
+/Users/albert/_ref/languages/csharp/ProjElectricCooker/ProjElectricCooker/bin/Debug/netcoreapp3.1/ProjElectricCooker.runtimeconfig.dev.json
+/Users/albert/_ref/languages/csharp/ProjElectricCooker/ProjElectricCooker/bin/Debug/netcoreapp3.1/ProjElectricCooker.dll
+/Users/albert/_ref/languages/csharp/ProjElectricCooker/ProjElectricCooker/bin/Debug/netcoreapp3.1/ProjElectricCooker.pdb
+/Users/albert/_ref/languages/csharp/ProjElectricCooker/ProjElectricCooker/obj/Debug/netcoreapp3.1/ProjElectricCooker.csprojAssemblyReference.cache
+/Users/albert/_ref/languages/csharp/ProjElectricCooker/ProjElectricCooker/obj/Debug/netcoreapp3.1/ProjElectricCooker.csproj.CoreCompileInputs.cache
+/Users/albert/_ref/languages/csharp/ProjElectricCooker/ProjElectricCooker/obj/Debug/netcoreapp3.1/ProjElectricCooker.AssemblyInfoInputs.cache
+/Users/albert/_ref/languages/csharp/ProjElectricCooker/ProjElectricCooker/obj/Debug/netcoreapp3.1/ProjElectricCooker.AssemblyInfo.cs
+/Users/albert/_ref/languages/csharp/ProjElectricCooker/ProjElectricCooker/obj/Debug/netcoreapp3.1/ProjElectricCooker.dll
+/Users/albert/_ref/languages/csharp/ProjElectricCooker/ProjElectricCooker/obj/Debug/netcoreapp3.1/ProjElectricCooker.pdb
+/Users/albert/_ref/languages/csharp/ProjElectricCooker/ProjElectricCooker/obj/Debug/netcoreapp3.1/ProjElectricCooker.genruntimeconfig.cache
