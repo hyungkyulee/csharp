@@ -1,0 +1,12 @@
+/Users/albert/_ref/languages/csharp/ExampleCodes/ExampleCodes/bin/Debug/netcoreapp3.1/ExampleCodes.deps.json
+/Users/albert/_ref/languages/csharp/ExampleCodes/ExampleCodes/bin/Debug/netcoreapp3.1/ExampleCodes.runtimeconfig.json
+/Users/albert/_ref/languages/csharp/ExampleCodes/ExampleCodes/bin/Debug/netcoreapp3.1/ExampleCodes.runtimeconfig.dev.json
+/Users/albert/_ref/languages/csharp/ExampleCodes/ExampleCodes/bin/Debug/netcoreapp3.1/ExampleCodes.dll
+/Users/albert/_ref/languages/csharp/ExampleCodes/ExampleCodes/bin/Debug/netcoreapp3.1/ExampleCodes.pdb
+/Users/albert/_ref/languages/csharp/ExampleCodes/ExampleCodes/obj/Debug/netcoreapp3.1/ExampleCodes.csprojAssemblyReference.cache
+/Users/albert/_ref/languages/csharp/ExampleCodes/ExampleCodes/obj/Debug/netcoreapp3.1/ExampleCodes.AssemblyInfoInputs.cache
+/Users/albert/_ref/languages/csharp/ExampleCodes/ExampleCodes/obj/Debug/netcoreapp3.1/ExampleCodes.AssemblyInfo.cs
+/Users/albert/_ref/languages/csharp/ExampleCodes/ExampleCodes/obj/Debug/netcoreapp3.1/ExampleCodes.csproj.CoreCompileInputs.cache
+/Users/albert/_ref/languages/csharp/ExampleCodes/ExampleCodes/obj/Debug/netcoreapp3.1/ExampleCodes.dll
+/Users/albert/_ref/languages/csharp/ExampleCodes/ExampleCodes/obj/Debug/netcoreapp3.1/ExampleCodes.pdb
+/Users/albert/_ref/languages/csharp/ExampleCodes/ExampleCodes/obj/Debug/netcoreapp3.1/ExampleCodes.genruntimeconfig.cache
